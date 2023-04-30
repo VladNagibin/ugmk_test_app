@@ -1,0 +1,45 @@
+.pieChart {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  &__pie {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+  }
+  &__definitions {
+    display: flex;
+    margin-top: 20px;
+    &__1 {
+      display: flex;
+      margin: 10px;
+      div {
+        margin-left: 5px;
+        width: 20px;
+        height: 20px;
+        background-color: blue;
+      }
+    }
+    &__2 {
+      display: flex;
+      margin: 10px;
+      div {
+        margin-left: 5px;
+        width: 20px;
+        height: 20px;
+        background-color: yellow;
+      }
+    }
+    &__3 {
+      display: flex;
+      margin: 10px;
+      div {
+        margin-left: 5px;
+        width: 20px;
+        height: 20px;
+        background-color: green;
+      }
+    }
+  }
+}

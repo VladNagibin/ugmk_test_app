@@ -1,0 +1,17 @@
+.mainPage {
+  &__filter {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 60px;
+    border: 2px solid grey;
+    border-radius: 15px;
+    width: 100%;
+    margin-bottom: 10px;
+    select {
+      height: 30px;
+      margin-right: 10px;
+      margin-left: 10px;
+    }
+  }
+}

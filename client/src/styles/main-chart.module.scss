@@ -1,0 +1,78 @@
+.mainChart {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid grey;
+  border-radius: 15px;
+  &__graph {
+    display: flex;
+    width: 100%;
+    height: 500px;
+  }
+  &__y {
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 19px;
+    &__value {
+      height: 80px;
+      display: flex;
+      align-items: flex-end;
+      justify-content: flex-end;
+      border-right: 1px solid black;
+    }
+  }
+  &__histogram {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    width: 100%;
+    &__element {
+      width: 100%;
+      text-align: center;
+      &__charts {
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        border-bottom: 1px solid black;
+        &__factory1 {
+          width: 40%;
+          background-color: red;
+        }
+        &__factory2 {
+          width: 40%;
+          background-color: blue;
+        }
+      }
+    }
+  }
+  &__definition {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    &__factory1 {
+      height: 80px;
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: center;
+      &__color {
+        margin-left: 10px;
+        width: 20px;
+        height: 20px;
+        background-color: red;
+      }
+    }
+    &__factory2 {
+      height: 80px;
+      display: flex;
+      align-items: center;
+      flex-direction: row-reverse;
+      &__color {
+        margin-left: 10px;
+        width: 20px;
+        height: 20px;
+        background-color: blue;
+      }
+    }
+  }
+}
